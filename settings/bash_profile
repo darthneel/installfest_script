@@ -94,9 +94,6 @@ export HISTIGNORE="h"
 # Aliases
 # ====================
 
-# LS lists information about files.
-# show slashes for directories.
-alias ls='ls -F --color'
 
 # long list format including hidden files and include unit size
 alias ll='ls -la'

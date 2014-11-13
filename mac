@@ -578,6 +578,8 @@ git config --global color.status.untracked red
 # set editor
 git config --global core.editor "subl -w"
 
+
+
 # default branch to push to
 git config --global push.default current
 
@@ -948,8 +950,10 @@ mail -s "$SUBJECT" "$EMAIL" < $EMAILMESSAGE
 # FIXME (phlco) this reports broken pipe in ubuntu
 # run exec $SHELL at end?
 # atom . doesn't work.
-# subl . works
 
+# set subl symlink
+
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 
 
 quoth_the_bard "${HOW_NOW_FINISH[@]}"
